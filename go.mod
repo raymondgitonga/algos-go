@@ -1,4 +1,4 @@
-module algos_go
+module algos-go
 
 go 1.18
 
