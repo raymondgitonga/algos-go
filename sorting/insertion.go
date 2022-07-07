@@ -1,8 +1,6 @@
 package sorting
 
 func InsertionSort(arr []int) []int {
-	//9, 4, 1, 3, 0
-
 	for i := 1; i < len(arr); i++ {
 		j := i
 		for j > 0 {
@@ -11,6 +9,7 @@ func InsertionSort(arr []int) []int {
 				arr[j-1] = arr[j]
 				arr[j] = temp
 			}
+			// step back till you reach to the end of the sorted pile
 			j = j - 1
 		}
 	}
