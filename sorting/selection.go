@@ -1,7 +1,6 @@
 package sorting
 
 func SelectionSort(arr []int) []int {
-
 	//9, 4, 1, 3, 0
 	//set minimum as the first element in the array
 	minVal := 0
@@ -15,14 +14,13 @@ func SelectionSort(arr []int) []int {
 			if arr[j] < minVal {
 				minVal = arr[j]
 				minIndex = j
+			} else {
+				continue
 			}
 		}
-		//Moving the most minimum value in the unsorted array to the left, and move the unsorted pointer
-		if minVal < arr[i] {
-			temp := arr[i]
-			arr[i] = arr[minIndex]
-			arr[minIndex] = temp
-		}
+		temp := arr[i]
+		arr[i] = arr[minIndex]
+		arr[minIndex] = temp
 	}
 
 	return arr
