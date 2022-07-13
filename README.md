@@ -27,3 +27,9 @@
    [Imlementation](sorting/quicksort.go)
    <br>
    [Visualization](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/)
+
+### Searching
+
+1. Binary search
+   <br>
+   [Imlementation](search/binary.go)
