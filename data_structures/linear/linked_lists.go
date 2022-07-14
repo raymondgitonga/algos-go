@@ -14,13 +14,17 @@ type linkedList struct {
 
 // We're using the pointer receiver as we're going to modify
 // the linked list itself and not a copy
-func (l *linkedList) prepend(node *node) {
-	second := l.head
-	newHead := node
-	l.head = newHead
-	newHead.next = second
+// Note: Use of variadic functions here
+func (l *linkedList) prepend(node ...*node) {
 
-	l.length++
+	for _, n := range node {
+		second := l.head
+		newHead := n
+		l.head = newHead
+		newHead.next = second
+		l.length++
+	}
+
 }
 
 // We're using a value receiver as we're just going to print the list and not modify it

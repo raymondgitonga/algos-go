@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Linked lists" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Update readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/linear/linked_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linear/linked_list_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/linear/linked_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linear/linked_lists.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,10 +155,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor selection sort" />
     <MESSAGE value="Quick sort" />
-    <MESSAGE value="Update readme" />
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Linked lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked lists" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

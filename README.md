@@ -1,6 +1,6 @@
 ### Common data structures and algorithm implementations in GO
 
-### Algorithms
+### <ins>Algorithms<ins>
 #### Sorting
 
 1. Bubble sort

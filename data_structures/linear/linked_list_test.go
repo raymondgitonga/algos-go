@@ -24,10 +24,7 @@ func TestDeleteWithValue(t *testing.T) {
 	node2 := &node{data: 9, next: nil}
 	node3 := &node{data: 12, next: nil}
 
-	list.prepend(node1)
-	list.prepend(node2)
-	list.prepend(node3)
-
+	list.prepend(node1, node2, node3)
 	list.deleteWithValue(9)
 
 	assert.Equal(t, 2, list.length)
