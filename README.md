@@ -1,6 +1,7 @@
-### Common algorithm implementations in GO
+### Common data structures and algorithm implementations in GO
 
-### Sorting
+### Algorithms
+#### Sorting
 
 1. Bubble sort
    <br>
@@ -28,14 +29,13 @@
    <br>
    [Visualization](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/)
 
-### Searching
+#### Searching
 
 1. Binary search
    <br>
    [Imlementation](search/binary.go)
 
-### Data Structures
-
+### <ins>Data Structures</ins>
 
 #### Linear Data Structures
       
