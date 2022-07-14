@@ -33,3 +33,12 @@
 1. Binary search
    <br>
    [Imlementation](search/binary.go)
+
+### Data Structures
+
+
+#### Linear Data Structures
+      
+1. Linked List
+   <br>
+   [Implementation](data_structures/linear/linked_lists.go)
