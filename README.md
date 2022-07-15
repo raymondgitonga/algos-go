@@ -42,3 +42,6 @@
 1. Linked List
    <br>
    [Implementation](data_structures/linear/linked_lists.go)
+2. Stacks and Queues
+   <br>
+   [Implementation](data_structures/linear/stacks_queues.go)
