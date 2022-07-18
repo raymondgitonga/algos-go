@@ -45,3 +45,6 @@
 2. Stacks and Queues
    <br>
    [Implementation](data_structures/linear/stacks_queues.go)
+3. Hash Table
+   <br>
+   [Implementation](data_structures/linear/hash_table.go)

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Update linked list pprepend to use variadic functions">
-      <change afterPath="$PROJECT_DIR$/data_structures/linear/stacks_queues.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/linear/stacks_queues_test.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add stacks and queues">
+      <change afterPath="$PROJECT_DIR$/data_structures/linear/hash_table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/linear/hash_table_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/linear/linked_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linear/linked_list.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestQueue_Dequeue in algos-go/data_structures/linear">
+  <component name="RunManager" selected="Go Test.hash_table_test.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -59,7 +61,7 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestQueue_Dequeue in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHashTable_Delete in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/data_structures/linear" />
       <root_directory value="$PROJECT_DIR$" />
@@ -68,10 +70,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestQueue_Dequeue\E$" />
+      <pattern value="^\QTestHashTable_Delete\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestQueue_Enqueue in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHashTable_Hash in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/data_structures/linear" />
       <root_directory value="$PROJECT_DIR$" />
@@ -80,10 +82,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestQueue_Enqueue\E$" />
+      <pattern value="^\QTestHashTable_Hash\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStack_Pop in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHashTable_Insert in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/data_structures/linear" />
       <root_directory value="$PROJECT_DIR$" />
@@ -92,10 +94,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestStack_Pop\E$" />
+      <pattern value="^\QTestHashTable_Insert\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStack_Push in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHashTable_Search in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/data_structures/linear" />
       <root_directory value="$PROJECT_DIR$" />
@@ -104,7 +106,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestStack_Push\E$" />
+      <pattern value="^\QTestHashTable_Search\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -117,24 +119,23 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go test algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="hash_table_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/data_structures/linear" />
       <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/linear" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/data_structures/linear/hash_table_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestQueue_Dequeue in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestQueue_Enqueue in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.go test algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestStack_Pop in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestStack_Push in algos-go/data_structures/linear" />
+        <item itemvalue="Go Test.hash_table_test.go" />
+        <item itemvalue="Go Test.TestHashTable_Insert in algos-go/data_structures/linear" />
+        <item itemvalue="Go Test.TestHashTable_Hash in algos-go/data_structures/linear" />
+        <item itemvalue="Go Test.TestHashTable_Delete in algos-go/data_structures/linear" />
+        <item itemvalue="Go Test.TestHashTable_Search in algos-go/data_structures/linear" />
       </list>
     </recent_temporary>
   </component>
@@ -160,9 +161,14 @@
     <MESSAGE value="Linked lists" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Update linked list pprepend to use variadic functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update linked list pprepend to use variadic functions" />
+    <MESSAGE value="Add stacks and queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add stacks and queues" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algos_go$TestHashTable_Insert_in_algos_go_data_structures_linear.out" NAME="TestHashTable_Insert in algos-go/data_structures/linear Coverage Results" MODIFIED="1658133032523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/algos_go$hash_table_test_go.out" NAME="hash_table_test.go Coverage Results" MODIFIED="1658133217903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
