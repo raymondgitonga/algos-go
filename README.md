@@ -48,3 +48,8 @@
 3. Hash Table
    <br>
    [Implementation](data_structures/linear/hash_table.go)
+
+#### Non-Linear Data Structures
+1. Binary Search Tree
+   <br>
+   [Implementation](data_structures/non_linear/binary_search_tree.go)

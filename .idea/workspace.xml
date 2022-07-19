@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add stacks and queues">
-      <change afterPath="$PROJECT_DIR$/data_structures/linear/hash_table.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/linear/hash_table_test.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add HashTables">
+      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/binary_search_tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/binary_search_tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/linear/linked_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linear/linked_list.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -35,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
   }
-}</component>
-  <component name="RunManager" selected="Go Test.hash_table_test.go">
+}]]></component>
+  <component name="RunManager" selected="Go Test.TestBinarySearchTree_Search in algos-go/data_structures/non_linear">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -61,28 +60,37 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHashTable_Delete in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build algos-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/data_structures/linear" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/linear" />
+      <package value="algos-go" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestHashTable_Delete\E$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHashTable_Hash in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBinarySearchTree_Insert in algos-go/data_structures/non_linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/data_structures/linear" />
+      <working_directory value="$PROJECT_DIR$/data_structures/non_linear" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/linear" />
+      <package value="algos-go/data_structures/non_linear" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestHashTable_Hash\E$" />
+      <pattern value="^\QTestBinarySearchTree_Insert\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearchTree_Search in algos-go/data_structures/non_linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$/data_structures/non_linear" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/data_structures/non_linear" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestBinarySearchTree_Search\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestHashTable_Insert in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -95,18 +103,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestHashTable_Insert\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHashTable_Search in algos-go/data_structures/linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/data_structures/linear" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/linear" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestHashTable_Search\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinarySearchTree_Search in algos-go/data_structures/non_linear" />
+        <item itemvalue="Go Test.TestBinarySearchTree_Insert in algos-go/data_structures/non_linear" />
+        <item itemvalue="Go Build.go build algos-go" />
         <item itemvalue="Go Test.hash_table_test.go" />
         <item itemvalue="Go Test.TestHashTable_Insert in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestHashTable_Hash in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestHashTable_Delete in algos-go/data_structures/linear" />
-        <item itemvalue="Go Test.TestHashTable_Search in algos-go/data_structures/linear" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +158,8 @@
     <MESSAGE value="Update readme" />
     <MESSAGE value="Update linked list pprepend to use variadic functions" />
     <MESSAGE value="Add stacks and queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add stacks and queues" />
+    <MESSAGE value="Add HashTables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HashTables" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
