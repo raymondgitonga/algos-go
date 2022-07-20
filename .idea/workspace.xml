@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add HashTables">
-      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/binary_search_tree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/binary_search_tree_test.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add Binary Search Trees">
+      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/graph.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/graph_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -36,7 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
@@ -159,7 +159,8 @@
     <MESSAGE value="Update linked list pprepend to use variadic functions" />
     <MESSAGE value="Add stacks and queues" />
     <MESSAGE value="Add HashTables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HashTables" />
+    <MESSAGE value="Add Binary Search Trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Binary Search Trees" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

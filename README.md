@@ -53,3 +53,6 @@
 1. Binary Search Tree
    <br>
    [Implementation](data_structures/non_linear/binary_search_tree.go)
+2. Graph
+   <br>
+   [Implementation](data_structures/non_linear/graph.go)
