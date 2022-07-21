@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add recursion and two pointer">
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add string recursion tests and two pointer tests">
       <change afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos-go/paradigm/recursion">
+  <component name="RunManager" selected="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -65,61 +65,64 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build algos-go/paradigm/recursion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNumberRecursion_DecimalToBinary in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="algos-go/paradigm/recursion" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/paradigm/recursion/recursion.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestNumberRecursion_DecimalToBinary\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBubbleSort in algos-go/sorting" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/sorting" />
+      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/sorting" />
+      <package value="algos-go/paradigm/recursion" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestBubbleSort\E$" />
+      <pattern value="^\QTestNumberRecursion_SumOfNaturalNumbers\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGraph_AddEdge in algos-go/data_structures/non_linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringRecursion_Palindrome in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/data_structures/non_linear" />
+      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/non_linear" />
+      <package value="algos-go/paradigm/recursion" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestGraph_AddEdge\E$" />
+      <pattern value="^\QTestStringRecursion_Palindrome\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertionSort in algos-go/sorting" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringRecursion_Reverse in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/sorting" />
+      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/sorting" />
+      <package value="algos-go/paradigm/recursion" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestInsertionSort\E$" />
+      <pattern value="^\QTestStringRecursion_Reverse\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSelectionSort in algos-go/sorting" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTwoPointer_IsPalindrome in algos-go/paradigm/two_pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/sorting" />
+      <working_directory value="$PROJECT_DIR$/paradigm/two_pointer" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/sorting" />
+      <package value="algos-go/paradigm/two_pointer" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSelectionSort\E$" />
+      <pattern value="^\QTestTwoPointer_IsPalindrome\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestInsertionSort in algos-go/sorting" />
-        <item itemvalue="Go Test.TestBubbleSort in algos-go/sorting" />
-        <item itemvalue="Go Test.TestSelectionSort in algos-go/sorting" />
-        <item itemvalue="Go Test.TestGraph_AddEdge in algos-go/data_structures/non_linear" />
+        <item itemvalue="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" />
+        <item itemvalue="Go Test.TestNumberRecursion_DecimalToBinary in algos-go/paradigm/recursion" />
+        <item itemvalue="Go Test.TestStringRecursion_Palindrome in algos-go/paradigm/recursion" />
+        <item itemvalue="Go Test.TestStringRecursion_Reverse in algos-go/paradigm/recursion" />
+        <item itemvalue="Go Test.TestTwoPointer_IsPalindrome in algos-go/paradigm/two_pointer" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,8 @@
     <MESSAGE value="Update swaps to be more idiomatic" />
     <MESSAGE value="Add heap" />
     <MESSAGE value="Add recursion and two pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add recursion and two pointer" />
+    <MESSAGE value="Add string recursion tests and two pointer tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add string recursion tests and two pointer tests" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
