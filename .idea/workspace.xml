@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add graph">
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Update swaps to be more idiomatic">
       <change afterPath="$PROJECT_DIR$/data_structures/non_linear/heap.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data_structures/non_linear/heap_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/bubble.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/bubble.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/insertion.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/insertion.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/quicksort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quicksort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/selection.go" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/selection.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,8 @@
     <MESSAGE value="Add HashTables" />
     <MESSAGE value="Add Binary Search Trees" />
     <MESSAGE value="Add graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add graph" />
+    <MESSAGE value="Update swaps to be more idiomatic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update swaps to be more idiomatic" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
