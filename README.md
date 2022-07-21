@@ -56,3 +56,12 @@
 2. Graph
    <br>
    [Implementation](data_structures/non_linear/graph.go)
+
+### Algorithm Solving Techniques
+
+1. Recursion
+   <br>
+   [Implementation](paradigm/recursion)
+2. Two Pointer
+   <br>
+   [Implementation](paradigm/two_pointer)

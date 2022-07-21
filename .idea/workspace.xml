@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Update swaps to be more idiomatic">
-      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/heap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/non_linear/heap_test.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add heap">
+      <change afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/recursion/string_recursion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,23 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
   }
-}</component>
-  <component name="RunManager" selected="Go Test.TestInsertionSort in algos-go/sorting">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/paradigm/recursion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build algos-go/paradigm/recursion">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -58,6 +64,15 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algos-go/paradigm/recursion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/paradigm/recursion" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/paradigm/recursion/recursion.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestBubbleSort in algos-go/sorting" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -82,18 +97,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestGraph_AddEdge\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestGraph_GetVertex in algos-go/data_structures/non_linear" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/data_structures/non_linear" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/data_structures/non_linear" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGraph_GetVertex\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestInsertionSort in algos-go/sorting" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -132,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestInsertionSort in algos-go/sorting" />
         <item itemvalue="Go Test.TestBubbleSort in algos-go/sorting" />
         <item itemvalue="Go Test.TestSelectionSort in algos-go/sorting" />
         <item itemvalue="Go Test.TestGraph_AddEdge in algos-go/data_structures/non_linear" />
-        <item itemvalue="Go Test.TestGraph_GetVertex in algos-go/data_structures/non_linear" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +170,8 @@
     <MESSAGE value="Add Binary Search Trees" />
     <MESSAGE value="Add graph" />
     <MESSAGE value="Update swaps to be more idiomatic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update swaps to be more idiomatic" />
+    <MESSAGE value="Add heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add heap" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
