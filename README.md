@@ -57,7 +57,7 @@
    <br>
    [Implementation](data_structures/non_linear/graph.go)
 
-### Algorithm Solving Techniques
+### <ins>Algorithm Solving Techniques</ins>
 
 1. Recursion
    <br>

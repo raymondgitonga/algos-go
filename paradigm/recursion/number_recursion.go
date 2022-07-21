@@ -14,8 +14,6 @@ func sumOfNaturalNumbers(num int, sum int) int {
 	if num == 0 {
 		return sum
 	}
-
 	sum = num + sum
-
 	return sumOfNaturalNumbers(num-1, sum)
 }
