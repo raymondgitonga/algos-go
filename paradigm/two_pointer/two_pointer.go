@@ -1,8 +1,4 @@
-package main
-
-func main() {
-
-}
+package two_pointer
 
 func isPalindrome(str string) bool {
 	start := 0

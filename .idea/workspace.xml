@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add heap">
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add recursion and two pointer">
       <change afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/recursion/string_recursion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/two_pointer/two_pointer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,8 @@
     <MESSAGE value="Add graph" />
     <MESSAGE value="Update swaps to be more idiomatic" />
     <MESSAGE value="Add heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add heap" />
+    <MESSAGE value="Add recursion and two pointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add recursion and two pointer" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
