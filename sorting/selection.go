@@ -18,9 +18,8 @@ func SelectionSort(arr []int) []int {
 				continue
 			}
 		}
-		temp := arr[i]
-		arr[i] = arr[minIndex]
-		arr[minIndex] = temp
+
+		arr[i], arr[minIndex] = arr[minIndex], arr[i]
 	}
 
 	return arr
