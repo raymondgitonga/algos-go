@@ -15,10 +15,10 @@ func TestNumberRecursion_DecimalToBinary(t *testing.T) {
 }
 
 func TestNumberRecursion_SumOfNaturalNumbers(t *testing.T) {
-	num := 10
+	num := 5
 	sum := 0
 
 	result := sumOfNaturalNumbers(num, sum)
 
-	assert.Equal(t, 55, result)
+	assert.Equal(t, 15, result)
 }

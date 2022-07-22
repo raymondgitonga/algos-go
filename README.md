@@ -33,7 +33,8 @@
 
 1. Binary search
    <br>
-   [Imlementation](search/binary.go)
+   [Imlementation(Two pointer)](search/binary.go)
+   [Implementation(Recursion)](paradigm/divide_and_conquer/binary_search.go)
 
 ### <ins>Data Structures</ins>
 
@@ -65,3 +66,6 @@
 2. Two Pointer
    <br>
    [Implementation](paradigm/two_pointer)
+3. Divide And Conquer(Recursion)
+   <br>
+   [Implementation](paradigm/divide_and_conquer)

@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Add decimalToBinary and sumOfNaturalNumbers to recursion">
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Recursion using binary search">
+      <change afterPath="$PROJECT_DIR$/paradigm/divide_and_conquer/binary_search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/divide_and_conquer/binary_search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/recursion/number_recursion.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigm/recursion/number_recursion_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/recursion/number_recursion_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion">
+  <component name="RunManager" selected="Go Test.TestLinkedListReversal in algos-go/paradigm/recursion">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,6 +67,42 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearch in algos-go/paradigm/divide_and_conquer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$/paradigm/divide_and_conquer" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/paradigm/divide_and_conquer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestBinarySearch\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearch/does_not_exist in algos-go/paradigm/divide_and_conquer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$/paradigm/divide_and_conquer" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/paradigm/divide_and_conquer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestBinarySearch\E$/^\Qdoes_not_exist\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLinkedListReversal in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/paradigm/recursion" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLinkedListReversal\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestNumberRecursion_DecimalToBinary in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -89,42 +129,6 @@
       <pattern value="^\QTestNumberRecursion_SumOfNaturalNumbers\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStringRecursion_Palindrome in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/recursion" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestStringRecursion_Palindrome\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestStringRecursion_Reverse in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/recursion" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestStringRecursion_Reverse\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTwoPointer_IsPalindrome in algos-go/paradigm/two_pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/two_pointer" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/two_pointer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestTwoPointer_IsPalindrome\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -137,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLinkedListReversal in algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" />
+        <item itemvalue="Go Test.TestBinarySearch in algos-go/paradigm/divide_and_conquer" />
+        <item itemvalue="Go Test.TestBinarySearch/does_not_exist in algos-go/paradigm/divide_and_conquer" />
         <item itemvalue="Go Test.TestNumberRecursion_DecimalToBinary in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestStringRecursion_Palindrome in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestStringRecursion_Reverse in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestTwoPointer_IsPalindrome in algos-go/paradigm/two_pointer" />
       </list>
     </recent_temporary>
   </component>
@@ -176,10 +180,22 @@
     <MESSAGE value="Add recursion and two pointer" />
     <MESSAGE value="Add string recursion tests and two pointer tests" />
     <MESSAGE value="Add decimalToBinary and sumOfNaturalNumbers to recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add decimalToBinary and sumOfNaturalNumbers to recursion" />
+    <MESSAGE value="Update number_recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update number_recursion" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/paradigm/recursion/linked_list_reversal_test.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algos_go$TestHashTable_Insert_in_algos_go_data_structures_linear.out" NAME="TestHashTable_Insert in algos-go/data_structures/linear Coverage Results" MODIFIED="1658133032523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
