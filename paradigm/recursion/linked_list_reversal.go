@@ -1,15 +1,15 @@
 package recursion
 
 type LinkedList struct {
-	head *node
+	head *Node
 }
 
-type node struct {
+type Node struct {
 	val  int
-	next *node
+	next *Node
 }
 
-func reverseLinkedList(head *node) *node {
+func reverseLinkedList(head *Node) *Node {
 	if head == nil || head.next == nil {
 		return head
 	}

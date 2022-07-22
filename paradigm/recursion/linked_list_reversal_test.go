@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func (l *LinkedList) prepend(node ...*node) {
+func (l *LinkedList) prepend(node ...*Node) {
 	for _, n := range node {
 		second := l.head
 		newHead := n
@@ -17,7 +17,7 @@ func (l *LinkedList) prepend(node ...*node) {
 
 func TestLinkedListReversal(t *testing.T) {
 	l := LinkedList{}
-	l.prepend(&node{val: 1}, &node{val: 2}, &node{val: 3})
+	l.prepend(&Node{val: 1}, &Node{val: 2}, &Node{val: 3})
 
 	reverseLinkedList(l.head)
 
