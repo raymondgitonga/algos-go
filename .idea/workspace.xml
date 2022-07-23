@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Recursion using binary search and linked list reversal">
-      <change afterPath="$PROJECT_DIR$/paradigm/recursion/merge_linked_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/recursion/merge_linked_list_test.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Linked list reversal and merge linked list">
+      <change afterPath="$PROJECT_DIR$/dsa/linked_list/linked_list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/recursion/linked_list_reversal_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -36,28 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMergeSortedLinkedList in algos-go/paradigm/recursion">
+  <component name="RunManager" selected="Go Build.go build algos-go/dsa/linked_list">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -65,6 +62,15 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algos-go/dsa/linked_list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/dsa/linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/dsa/linked_list/linked_list.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestBinarySearch in algos-go/paradigm/divide_and_conquer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -77,18 +83,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestBinarySearch\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinarySearch/does_not_exist in algos-go/paradigm/divide_and_conquer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/divide_and_conquer" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/divide_and_conquer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinarySearch\E$/^\Qdoes_not_exist\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestLinkedListReversal in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/dsa/linked_list" />
         <item itemvalue="Go Test.TestMergeSortedLinkedList in algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestLinkedListReversal in algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestBinarySearch in algos-go/paradigm/divide_and_conquer" />
-        <item itemvalue="Go Test.TestBinarySearch/does_not_exist in algos-go/paradigm/divide_and_conquer" />
       </list>
     </recent_temporary>
   </component>
@@ -180,21 +174,11 @@
     <MESSAGE value="Add decimalToBinary and sumOfNaturalNumbers to recursion" />
     <MESSAGE value="Update number_recursion" />
     <MESSAGE value="Recursion using binary search and linked list reversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion using binary search and linked list reversal" />
+    <MESSAGE value="Linked list reversal and merge linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list reversal and merge linked list" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/paradigm/recursion/merge_linked_list_test.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algos_go$TestHashTable_Insert_in_algos_go_data_structures_linear.out" NAME="TestHashTable_Insert in algos-go/data_structures/linear Coverage Results" MODIFIED="1658133032523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
