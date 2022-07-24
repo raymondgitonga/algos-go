@@ -127,15 +127,16 @@ func reverseLinkedList(head *Node) *Node {
 
 func zipperList(node1 *Node, node2 *Node) *Node {
 	combinedNode := &Node{}
+	head := combinedNode
 	flag := 0
 
 	for node1 != nil && node2 != nil {
 		if flag == 0 {
-			combinedNode = node1
+			combinedNode.next = node1
 			node1 = node1.next
 			flag = 1
 		} else {
-			combinedNode = node2
+			combinedNode.next = node2
 			node2 = node2.next
 			flag = 0
 		}
@@ -143,16 +144,15 @@ func zipperList(node1 *Node, node2 *Node) *Node {
 	}
 
 	if node1 != nil {
-		combinedNode = node1
+		combinedNode.next = node1
 	}
 
 	if node2 != nil {
-		combinedNode = node2
+		combinedNode.next = node2
 	}
 
-	return combinedNode
+	return head.next
 }
 
 func main() {
-
 }
