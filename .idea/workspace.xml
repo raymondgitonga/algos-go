@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Linked list">
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Refactor zipper linked list">
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa/linked_list/linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/dsa/linked_list/linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa/linked_list/linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/linked_list/linked_list.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +52,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_structures/ds_operations" />
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos-go/dsa/linked_list">
+  <component name="RunManager" selected="Go Build.go build algos-go/data_structures/ds_operations/graph">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,6 +66,24 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build algos-go/data_structures/ds_operations/graph" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/data_structures/ds_operations/graph" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algos-go/dsa/graph" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/dsa/graph" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/dsa/graph/graph.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build algos-go/dsa/linked_list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,18 +91,6 @@
       <package value="algos-go/dsa/linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/dsa/linked_list/linked_list.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinarySearch in algos-go/paradigm/divide_and_conquer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/divide_and_conquer" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/divide_and_conquer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinarySearch\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestLinkedListReversal in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -109,18 +117,6 @@
       <pattern value="^\QTestMergeSortedLinkedList\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/recursion" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestNumberRecursion_SumOfNaturalNumbers\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -133,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/graph" />
+        <item itemvalue="Go Build.go build algos-go/dsa/graph" />
         <item itemvalue="Go Build.go build algos-go/dsa/linked_list" />
         <item itemvalue="Go Test.TestMergeSortedLinkedList in algos-go/paradigm/recursion" />
         <item itemvalue="Go Test.TestLinkedListReversal in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestNumberRecursion_SumOfNaturalNumbers in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestBinarySearch in algos-go/paradigm/divide_and_conquer" />
       </list>
     </recent_temporary>
   </component>
@@ -176,21 +172,11 @@
     <MESSAGE value="Recursion using binary search and linked list reversal" />
     <MESSAGE value="Linked list reversal and merge linked list" />
     <MESSAGE value="Linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked list" />
+    <MESSAGE value="Refactor zipper linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor zipper linked list" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/dsa/linked_list/linked_list.go</url>
-          <line>175</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algos_go$TestHashTable_Insert_in_algos_go_data_structures_linear.out" NAME="TestHashTable_Insert in algos-go/data_structures/linear Coverage Results" MODIFIED="1658133032523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
