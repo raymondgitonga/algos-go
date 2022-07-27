@@ -26,7 +26,7 @@ func main() {
 	}
 
 	//Undirected/cyclic graph check connections
-	connections := GraphItem{map[string][]string{
+	g := GraphItem{map[string][]string{
 		"0": {"8", "1", "5"},
 		"1": {"0"},
 		"5": {"0", "8"},
@@ -36,7 +36,8 @@ func main() {
 		"4": {"3", "2"},
 	}}
 
-	x := connectedComponentsCount(connections)
+	x := connectedComponentsCount(g)
+
 	fmt.Println(x)
 }
 

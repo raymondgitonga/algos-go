@@ -4,7 +4,6 @@ func connectedComponentsCount(graphItem GraphItem) int {
 	// 1. Step 1: Traverse the graph till you get to the end then go to the next connected nodes
 	// 2. Step 2: Make sure you store the visited to prevent endless loo[
 	// 3. Step 3: Keep track of count for every terminated traversal
-
 	visited := make(map[string]string)
 	count := 0
 
@@ -14,7 +13,6 @@ func connectedComponentsCount(graphItem GraphItem) int {
 			count += 1
 		}
 	}
-
 	return count
 }
 
