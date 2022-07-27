@@ -6,6 +6,76 @@ type GraphItem struct {
 	graph map[string][]string
 }
 
+func main() {
+	// Directed graph
+	_ = GraphItem{graph: map[string][]string{
+		"f": {"g", "i"},
+		"g": {"h"},
+		"h": {},
+		"i": {"g", "k"},
+		"j": {"i"},
+	}}
+
+	//Undirected graph
+	nodes := [][]string{
+		{"i", "j"},
+		{"k", "i"},
+		{"m", "k"},
+		{"k", "l"},
+		{"o", "n"},
+	}
+
+	x := undirectedPath(nodes, "k", "m")
+
+	fmt.Println(x)
+}
+
+func undirectedPath(edges [][]string, src string, dest string) bool {
+	graphItem := buildGraph(edges)
+
+	lookupMap := make(map[string]string)
+	return hasPath(graphItem, src, dest, lookupMap)
+}
+
+func hasPath(graphItem GraphItem, src string, dest string, lookup map[string]string) bool {
+	if src == dest {
+		return true
+	}
+	if _, ok := lookup[src]; ok {
+		return false
+	}
+
+	lookup[src] = src
+	neighbours := graphItem.graph[src]
+
+	for _, v := range neighbours {
+		if hasPath(graphItem, v, dest, lookup) {
+			return true
+		}
+	}
+	return false
+}
+
+func buildGraph(edges [][]string) GraphItem {
+	graphItem := GraphItem{}
+	graphItem.graph = make(map[string][]string)
+
+	for _, v := range edges {
+		a, b := v[0], v[1]
+
+		if _, ok := graphItem.graph[a]; !ok {
+			graphItem.graph[a] = []string{}
+		}
+
+		if _, ok := graphItem.graph[b]; !ok {
+			graphItem.graph[b] = []string{}
+		}
+
+		graphItem.graph[a] = append(graphItem.graph[a], b)
+		graphItem.graph[b] = append(graphItem.graph[b], a)
+	}
+	return graphItem
+}
 func depthFirstTraversal(g GraphItem, source string) {
 	unvisited := make([]string, 0)
 
@@ -96,22 +166,27 @@ func hasPathDFSRecursive(g GraphItem, source string, dest string) bool {
 	return false
 }
 
-func main() {
-	g := GraphItem{graph: map[string][]string{
-		"f": {"g", "i"},
-		"g": {"h"},
-		"h": {},
-		"i": {"g", "k"},
-		"j": {"i"},
-	}}
-	//depthFirstTraversal(g, "a")
+func hasPathBFS(g GraphItem, source string, dest string) bool {
+	visited := make([]string, 0)
+	unvisited := make([]string, 0)
 
-	//depthFirstTraversalRecursively(g, "a")
+	unvisited = append(unvisited, source)
 
-	//breadthFirstTraversal(g, "a")
+	for len(unvisited) > 0 {
+		visitedNode := unvisited[0]
+		unvisited = unvisited[1:]
+		visited = append(visited, visitedNode)
 
-	x := hasPathDFSRecursive(g, "f", "k")
+		for _, v := range g.graph[visitedNode] {
+			unvisited = append(unvisited, v)
+		}
+	}
 
-	fmt.Println(x)
+	for _, v := range visited {
+		if v == dest {
+			return true
+		}
+	}
 
+	return false
 }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Refactor zipper linked list">
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Graph : DFS and BFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa/linked_list/linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/linked_list/linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,8 @@
     <MESSAGE value="Linked list reversal and merge linked list" />
     <MESSAGE value="Linked list" />
     <MESSAGE value="Refactor zipper linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor zipper linked list" />
+    <MESSAGE value="Graph : DFS and BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph : DFS and BFS" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
