@@ -16,8 +16,8 @@ func main() {
 		"j": {"i"},
 	}}
 
-	//Undirected graph
-	nodes := [][]string{
+	//Undirected/cyclic graph
+	_ = [][]string{
 		{"i", "j"},
 		{"k", "i"},
 		{"m", "k"},
@@ -25,8 +25,18 @@ func main() {
 		{"o", "n"},
 	}
 
-	x := undirectedPath(nodes, "k", "m")
+	//Undirected/cyclic graph check connections
+	connections := GraphItem{map[string][]string{
+		"0": {"8", "1", "5"},
+		"1": {"0"},
+		"5": {"0", "8"},
+		"8": {"0", "5"},
+		"2": {"3", "4"},
+		"3": {"2", "4"},
+		"4": {"3", "2"},
+	}}
 
+	x := connectedComponentsCount(connections)
 	fmt.Println(x)
 }
 
