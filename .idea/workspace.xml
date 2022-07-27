@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="connected component count">
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/largest_component.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="largest component">
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/shortest_path.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/connected_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/connected_count.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path_cyclic.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path_cyclic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/largest_component.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/largest_component.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +157,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quick sort" />
     <MESSAGE value="Binary Search" />
     <MESSAGE value="Linked lists" />
     <MESSAGE value="Update readme" />
@@ -179,7 +181,8 @@
     <MESSAGE value="Has path solution" />
     <MESSAGE value="Has path cyclic solution" />
     <MESSAGE value="connected component count" />
-    <option name="LAST_COMMIT_MESSAGE" value="connected component count" />
+    <MESSAGE value="largest component" />
+    <option name="LAST_COMMIT_MESSAGE" value="largest component" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

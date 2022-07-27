@@ -1,5 +1,11 @@
 package main
 
+//"f": {"g", "i"},
+//"g": {"h"},
+//"h": {},
+//"i": {"g", "k"},
+//"j": {"i"},
+
 func hasPathDFS(g GraphItem, source string, dest string) bool {
 	// stack LIFO
 	visited := make([]string, 0)

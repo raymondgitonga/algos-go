@@ -1,5 +1,13 @@
 package main
 
+//_ = [][]string{
+//{"i", "j"},
+//{"k", "i"},
+//{"m", "k"},
+//{"k", "l"},
+//{"o", "n"},
+//}
+
 func undirectedPath(edges [][]string, src string, dest string) bool {
 	graphItem := buildGraph(edges)
 

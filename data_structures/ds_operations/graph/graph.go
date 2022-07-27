@@ -25,8 +25,8 @@ func main() {
 		{"o", "n"},
 	}
 
-	//Undirected/cyclic graph check connections
-	g := GraphItem{map[string][]string{
+	//Undirected/cyclic graph check component count/check connections
+	_ = GraphItem{map[string][]string{
 		"0": {"8", "1", "5"},
 		"1": {"0"},
 		"5": {"0", "8"},
@@ -36,9 +36,13 @@ func main() {
 		"4": {"3", "2"},
 	}}
 
-	x := connectedComponentsCount(g)
-
-	fmt.Println(x)
+	_ = [][]string{
+		{"w", "x"},
+		{"x", "y"},
+		{"z", "y"},
+		{"z", "v"},
+		{"w", "v"},
+	}
 }
 
 func depthFirstTraversal(g GraphItem, source string) {

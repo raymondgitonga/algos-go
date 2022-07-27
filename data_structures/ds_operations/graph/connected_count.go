@@ -1,5 +1,13 @@
 package main
 
+//"0": {"8", "1", "5"},
+//"1": {"0"},
+//"5": {"0", "8"},
+//"8": {"0", "5"},
+//"2": {"3", "4"},
+//"3": {"2", "4"},
+
+//"4": {"3", "2"},
 func connectedComponentsCount(graphItem GraphItem) int {
 	// 1. Step 1: Traverse the graph till you get to the end then go to the next connected nodes
 	// 2. Step 2: Make sure you store the visited to prevent endless loo[
