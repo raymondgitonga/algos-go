@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="largest component">
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/shortest_path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/breadth_first_values.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/depth_first_values.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/connected_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/connected_count.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path_cyclic.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/has_path_cyclic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/graph/largest_component.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/graph/largest_component.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_structures/ds_operations" />
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos-go/data_structures/ds_operations/graph">
+  <component name="RunManager" selected="Go Build.go build algos-go/data_structures/ds_operations/binary_trees">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,6 +65,15 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algos-go/data_structures/ds_operations/binary_trees" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/data_structures/ds_operations/binary_trees" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build algos-go/data_structures/ds_operations/graph" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -97,18 +103,6 @@
       <filePath value="$PROJECT_DIR$/dsa/linked_list/linked_list.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLinkedListReversal in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/recursion" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestLinkedListReversal\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestMergeSortedLinkedList in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
@@ -133,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/binary_trees" />
         <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/graph" />
         <item itemvalue="Go Build.go build algos-go/dsa/graph" />
         <item itemvalue="Go Build.go build algos-go/dsa/linked_list" />
         <item itemvalue="Go Test.TestMergeSortedLinkedList in algos-go/paradigm/recursion" />
-        <item itemvalue="Go Test.TestLinkedListReversal in algos-go/paradigm/recursion" />
       </list>
     </recent_temporary>
   </component>
