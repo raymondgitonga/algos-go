@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="largest component">
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/breadth_first_values.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/depth_first_values.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Graph breadth first and depth first traversal">
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/smallest_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/tree_includes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/tree_sum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +152,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binary Search" />
-    <MESSAGE value="Linked lists" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Update linked list pprepend to use variadic functions" />
     <MESSAGE value="Add stacks and queues" />
@@ -176,7 +175,9 @@
     <MESSAGE value="Has path cyclic solution" />
     <MESSAGE value="connected component count" />
     <MESSAGE value="largest component" />
-    <option name="LAST_COMMIT_MESSAGE" value="largest component" />
+    <MESSAGE value="Binary tree breadth first and depth first traversal" />
+    <MESSAGE value="Graph breadth first and depth first traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph breadth first and depth first traversal" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

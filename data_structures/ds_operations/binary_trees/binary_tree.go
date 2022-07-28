@@ -8,6 +8,12 @@ type Node struct {
 	Right *Node
 }
 
+type NodeInt struct {
+	Key   int
+	Left  *NodeInt
+	Right *NodeInt
+}
+
 func main() {
 	a := Node{Key: "a"}
 	b := Node{Key: "b"}
@@ -33,7 +39,33 @@ func main() {
 	//y := depthFirstValuesRecursion(&a)
 	//fmt.Println(y)
 
-	z := breadthFirstValues(&a)
+	//z := breadthFirstValues(&a)
+	//
+	//fmt.Println(z)
 
-	fmt.Println(z)
+	//x := treeIncludes(&a, "a")
+	//
+	//fmt.Println(x)
+
+	three := NodeInt{Key: 3}
+	eleven := NodeInt{Key: 11}
+	four := NodeInt{Key: 4}
+	two := NodeInt{Key: 2}
+	four2 := NodeInt{Key: 4}
+	one := NodeInt{Key: 1}
+
+	three.Left = &eleven
+	three.Right = &four
+	eleven.Left = &four2
+	eleven.Right = &two
+	four.Right = &one
+
+	//x := treeSum(&three)
+	//
+	//fmt.Println(x)
+
+	y := smallestValue(&three)
+
+	fmt.Println(y)
+
 }
