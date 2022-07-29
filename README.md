@@ -69,3 +69,8 @@
 3. Divide And Conquer(Recursion)
    <br>
    [Implementation](paradigm/divide_and_conquer)
+4. Dynamic Programming
+   <br>
+   1. Memoization
+   [Implementation](paradigm/dynamic_programming/memoization)
+

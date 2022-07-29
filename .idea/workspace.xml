@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Graph: smallest_value, trees_includes, tree_sum">
-      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/fib.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/grid_traveller.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Memoization: Fib and grid traveller">
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update linked list pprepend to use variadic functions" />
     <MESSAGE value="Add stacks and queues" />
     <MESSAGE value="Add HashTables" />
     <MESSAGE value="Add Binary Search Trees" />
@@ -174,7 +173,8 @@
     <MESSAGE value="Binary tree breadth first and depth first traversal" />
     <MESSAGE value="Graph breadth first and depth first traversal" />
     <MESSAGE value="Graph: smallest_value, trees_includes, tree_sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph: smallest_value, trees_includes, tree_sum" />
+    <MESSAGE value="Memoization: Fib and grid traveller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memoization: Fib and grid traveller" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
