@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Graph breadth first and depth first traversal">
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/smallest_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/tree_includes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/tree_sum.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Graph: smallest_value, trees_includes, tree_sum">
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/fib.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/grid_traveller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/ds_operations/binary_trees/binary_tree.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +35,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/paradigm/dynamic_programming/memoization" />
       <recent name="$PROJECT_DIR$/data_structures/ds_operations" />
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos-go/data_structures/ds_operations/binary_trees">
+  <component name="RunManager" selected="Go Build.go build algos-go/paradigm/dynamic_programming/memoization">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -95,25 +95,22 @@
       <filePath value="$PROJECT_DIR$/dsa/graph/graph.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build algos-go/dsa/linked_list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build algos-go/paradigm/dynamic_programming" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/dsa/linked_list" />
+      <package value="algos-go/paradigm/dynamic_programming" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/dsa/linked_list/linked_list.go" />
+      <filePath value="$PROJECT_DIR$/paradigm/dynamic_programming/dynamic_programming.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMergeSortedLinkedList in algos-go/paradigm/recursion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build algos-go/paradigm/dynamic_programming/memoization" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$/paradigm/recursion" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="algos-go/paradigm/recursion" />
+      <package value="algos-go/paradigm/dynamic_programming/memoization" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMergeSortedLinkedList\E$" />
+      <filePath value="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/paradigm/dynamic_programming/memoization" />
+        <item itemvalue="Go Build.go build algos-go/paradigm/dynamic_programming" />
         <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/binary_trees" />
         <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/graph" />
         <item itemvalue="Go Build.go build algos-go/dsa/graph" />
-        <item itemvalue="Go Build.go build algos-go/dsa/linked_list" />
-        <item itemvalue="Go Test.TestMergeSortedLinkedList in algos-go/paradigm/recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +149,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update readme" />
     <MESSAGE value="Update linked list pprepend to use variadic functions" />
     <MESSAGE value="Add stacks and queues" />
     <MESSAGE value="Add HashTables" />
@@ -177,7 +173,8 @@
     <MESSAGE value="largest component" />
     <MESSAGE value="Binary tree breadth first and depth first traversal" />
     <MESSAGE value="Graph breadth first and depth first traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph breadth first and depth first traversal" />
+    <MESSAGE value="Graph: smallest_value, trees_includes, tree_sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph: smallest_value, trees_includes, tree_sum" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
