@@ -1,5 +1,7 @@
 package main
 
+// Check if any combination of the numbers in the array can sum to the given target
+
 // Time complexity of O(n^m), Space complexity O(m) m = targetSum n =array length
 func canSum(targetSum int, numbers []int) bool {
 	if targetSum == 0 {

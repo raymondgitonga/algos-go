@@ -7,9 +7,15 @@ func main() {
 	//
 	//fmt.Println(x)
 
+	//arr := []int{2, 3}
+	//
+	//x := canSumMemoization(7, arr)
+
+	//fmt.Println(x)
+
 	arr := []int{2, 3}
 
-	x := canSumMemoization(7, arr)
+	x := howSumMemoization(7, arr)
 
 	fmt.Println(x)
 }

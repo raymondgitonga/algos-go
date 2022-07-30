@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Memoization: Fib and grid traveller">
-      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Memoization: canSum">
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/how_sum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/raymondgitonga/Documents/projects/algos-go"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga/Documents/projects/algos-go&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/paradigm/dynamic_programming/memoization" />
@@ -149,7 +150,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add stacks and queues" />
     <MESSAGE value="Add HashTables" />
     <MESSAGE value="Add Binary Search Trees" />
     <MESSAGE value="Add graph" />
@@ -174,7 +174,8 @@
     <MESSAGE value="Graph breadth first and depth first traversal" />
     <MESSAGE value="Graph: smallest_value, trees_includes, tree_sum" />
     <MESSAGE value="Memoization: Fib and grid traveller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memoization: Fib and grid traveller" />
+    <MESSAGE value="Memoization: canSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memoization: canSum" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

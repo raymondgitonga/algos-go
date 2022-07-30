@@ -72,5 +72,9 @@
 4. Dynamic Programming
    <br>
    1. Memoization
+   <br>
    [Implementation](paradigm/dynamic_programming/memoization)
+   2. Tabulation
+   <br>
+   [Implementation](paradigm/dynamic_programming/tabulation)
 
