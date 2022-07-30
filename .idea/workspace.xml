@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Memoization: canSum">
-      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/how_sum.go" afterDir="false" />
+    <list default="true" id="280b720f-00e1-4e24-a1bf-3b96a225697e" name="Changes" comment="Memoization: howSum">
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/tabulation/fib.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/tabulation/tabulation.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/can_sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" beforeDir="false" afterPath="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="$PROJECT_DIR$/paradigm/recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos-go/paradigm/dynamic_programming/memoization">
+  <component name="RunManager" selected="Go Build.go build algos-go/paradigm/dynamic_programming/tabulation">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,15 +85,6 @@
       <filePath value="$PROJECT_DIR$/data_structures/ds_operations/graph/graph.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build algos-go/dsa/graph" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="algos-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="algos-go/dsa/graph" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/dsa/graph/graph.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build algos-go/paradigm/dynamic_programming" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,6 +103,15 @@
       <filePath value="$PROJECT_DIR$/paradigm/dynamic_programming/memoization/memoization.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build algos-go/paradigm/dynamic_programming/tabulation" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos-go/paradigm/dynamic_programming/tabulation" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/paradigm/dynamic_programming/tabulation/tabulation.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="algos-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos-go/paradigm/dynamic_programming/tabulation" />
         <item itemvalue="Go Build.go build algos-go/paradigm/dynamic_programming/memoization" />
         <item itemvalue="Go Build.go build algos-go/paradigm/dynamic_programming" />
         <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/binary_trees" />
         <item itemvalue="Go Build.go build algos-go/data_structures/ds_operations/graph" />
-        <item itemvalue="Go Build.go build algos-go/dsa/graph" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +148,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add HashTables" />
     <MESSAGE value="Add Binary Search Trees" />
     <MESSAGE value="Add graph" />
     <MESSAGE value="Update swaps to be more idiomatic" />
@@ -175,7 +172,8 @@
     <MESSAGE value="Graph: smallest_value, trees_includes, tree_sum" />
     <MESSAGE value="Memoization: Fib and grid traveller" />
     <MESSAGE value="Memoization: canSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memoization: canSum" />
+    <MESSAGE value="Memoization: howSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memoization: howSum" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
